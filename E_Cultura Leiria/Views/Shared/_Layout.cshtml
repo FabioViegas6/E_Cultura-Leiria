@@ -148,26 +148,44 @@
     </div>
 
 
+    <!--  Sobre covid-->
+    <div class="container">
 
-
-
-
-
-        <div class="container">
-            <main role="main" class="pb-3">
-                @RenderBody()
-            </main>
+        <div class="row mt-5">
+            <div class=" text-center text-danger" />
+            <h2>COVID-19 - COMUNICADO - REGRAS A APLICAR AOS EVENTOS</h2>
         </div>
 
-        <footer class="border-top footer text-muted">
-            <div class="container">
-                &copy; 2020 - E_Cultura_Leiria - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="">
+            <img class=" img-fluid d-block w-100" src="imgs/imgC.png">
+            <div class="ml-25">
+
+                <button type="button" class="btn btn-outline-danger " href="#">Saber Mais</button>
             </div>
-        </footer>
-        <!-- Optional JavaScript-->
-        <script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>
-        @RenderSection("Scripts", required: false)
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="py-5 bg-secondary w-100">
+        <div class="container">
+            <p class="m-0 text-center text-white small"> Copyright &copy; Your Website 2020</p> 
+        </div>
+    </footer>
+    <!-- Optional JavaScript-->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
