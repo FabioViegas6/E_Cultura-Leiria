@@ -5,4 +5,11 @@
     <RootNamespace>E_Cultura_Leiria</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\imgs\img1.jpeg" />
+    <Content Remove="wwwroot\imgs\img2.png" />
+    <Content Remove="wwwroot\imgs\img3.png" />
+    <Content Remove="wwwroot\imgs\img5.png" />
+  </ItemGroup>
+
 </Project>
