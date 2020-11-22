@@ -12,4 +12,8 @@
     <Content Remove="wwwroot\imgs\img5.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Home\crud\" />
+  </ItemGroup>
+
 </Project>
